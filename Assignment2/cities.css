@@ -1,0 +1,160 @@
+
+
+.fpContainer{
+    margin-top: 55px;
+    text-align: center;
+    color: rgb(5, 29, 27);
+    font-size: 60px;
+}
+
+.fp2Container{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.fp2{
+    width: 90%;
+    height: 1100px;
+    background-color: rgba(5, 9, 18, 0.812);
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    transition: 2s;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.fp2:hover{
+    color: red;
+}
+
+.fp2 h2{
+    margin: 10px;
+}
+
+.fp2 p{
+    margin: 10px;
+}
+
+
+
+.fp2Container #fp21 #fp211{
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+
+.fp2Container #fp21 #fp212{
+    background-image: url(ts.jpg);
+    width: 95%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    justify-items: center;
+    background-size: cover;
+}
+
+.fp2Container #fp21 #fp213{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+.fp2Container #fp22 #fp221{
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+
+.fp2Container #fp22 #fp222{
+    background-image: url(pisa.jpg);
+    width: 95%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    justify-items: center;
+    background-size: cover;
+}
+
+.fp2Container #fp22 #fp223{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+.fp2Container #fp23 #fp231{
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+
+.fp2Container #fp23 #fp232{
+    background-image: url(tm.jpg);
+    width: 95%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    justify-items: center;
+    background-size: cover;
+}
+
+.fp2Container #fp23 #fp233{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+
+iframe{
+    width: 90%;
+    height: 500px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1062px){
+    .fp2{
+        height: 1150px;
+    }
+}
+
+@media screen and (max-width: 809px){
+    .fp2Container #fp23 #fp232{
+        width: 89%;
+    }
+    .fp2Container #fp22 #fp222{
+        width: 89%;
+    }
+    .fp2Container #fp21 #fp212{
+        width: 89%;
+    }
+}
+
+@media screen and (max-width: 403px){
+    .fp2{
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 343px){
+    .fp2{
+        height: 1300px;
+    }
+}

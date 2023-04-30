@@ -1,0 +1,99 @@
+
+
+h1{
+    padding-top: 65px;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(92, 15, 30);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form{
+    background-color:whitesmoke;
+    margin-left: 3%;
+    position: relative;
+}
+
+form .ins{
+    margin-left: 1.5%;
+    width: 95.5%;
+    margin-bottom: 10px;
+    padding: 9px;
+    border-radius: 5px;
+    border: 3px solid rgba(28, 37, 46, 0.451);
+}
+
+form textarea{
+    width: 93.5%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 3px solid rgba(16, 71, 130, 0.451);
+    margin-bottom: 10px;
+}
+
+
+form p{
+    font-size: 20px;
+}
+
+form select{
+    width: 53.5%;
+    padding: 9px;
+    margin-bottom: 10px;
+    border: 3px solid rgba(40, 89, 142, 0.451);
+    border-radius: 5px;
+}
+
+button{
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    padding: 9px;
+    margin-bottom: 10px;
+    border: 3px solid rgba(12, 25, 38, 0.451);
+    border-radius: 5px;
+    left: 28%;
+}
+
+button:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.cb{
+    height: 20px;
+    width: 20px;
+
+}
+
+label{
+    font-size: 20px;
+    display: inline;
+}
+
+#a{
+    margin-bottom: 30px;
+}
+
+.rt{
+    margin-bottom: 20px;
+}
+
+
+/* Media Queries for the sake of responsiveness */
+
+@media only screen and (max-width: 650px){
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    label{
+        font-size: 15px;
+    }
+    .cb{
+        width: 15px;
+        height: 15px;
+    }
+}

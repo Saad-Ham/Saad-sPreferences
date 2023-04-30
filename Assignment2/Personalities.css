@@ -1,0 +1,143 @@
+
+.fpContainer{
+    margin-top: 55px;
+    text-align: center;
+    color: rgb(57, 37, 22);
+    font-size: 60px;
+}
+
+.fp2Container{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.fp2{
+    width: 410px;
+    height: 600px;
+    background-color: rgb(105, 69, 159);
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    transition: 2s;
+    border: 2px solid red;
+}
+
+.fp2:hover{
+    background-color: rgb(21, 8, 42);
+    box-shadow: 3px 2px 5px 4px solid red;
+}
+
+.fp2 h2{
+    margin: 10px;
+}
+
+.fp2 p{
+    margin: 10px;
+}
+
+
+
+
+
+
+.fp2Container #fp21 #fp211{
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+
+.fp2Container #fp21 #fp212{
+    background-image: url(qea.png);
+    height: 350px;
+    width: 370px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.fp2Container #fp21 #fp213{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+.fp2Container #fp22 #fp221{
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+
+.fp2Container #fp22 #fp222{
+    background-image: url(jb.jpg);
+    height: 350px;
+    width: 370px;
+    margin: 20px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.fp2Container #fp22 #fp223{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+.fp2Container #fp23 #fp231{
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+
+.fp2Container #fp23 #fp232{
+    background-image: url(ney.jpg);
+    height: 350px;
+    width: 370px;
+    margin: 20px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.fp2Container #fp23 #fp233{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+.fp2Container #fp24 #fp241{
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+
+.fp2Container #fp24 #fp242{
+    background-image: url(ba.png);
+    height: 350px;
+    width: 370px;
+    margin: 20px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.fp2Container #fp24 #fp243{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}

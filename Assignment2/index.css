@@ -1,0 +1,97 @@
+
+.fpContainer{
+    background-color: rgba(146, 6, 174, 0.722);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fp{
+    width: 350px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.564);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px lightblue;
+    transition:  2s;
+}
+
+.fp:hover{
+    background-color: rgba(255, 0, 0, 0.432);
+}
+
+.fpContainer .fp #fp1{
+    color: rgb(35, 179, 69);
+    font-size: 30px;
+    text-align: center;
+}
+
+.fpContainer .fp #fp2{
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.fpContainer .fp11{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.564);
+    border-radius: 10px;
+}
+
+img{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.fp2Container{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.fp2{
+    width: 410px;
+    height: 200px;
+    background-color: rgb(19, 7, 30);
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 3px coral;
+    border: 2px solid red;
+}
+
+.fp2:hover{
+    box-shadow: 10px 10px 10px 5px rgb(14, 55, 68);
+}
+
+.fp2 h2{
+    margin: 10px;
+}
+
+.fp2 p{
+    margin: 10px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 790px){
+    .fpContainer{
+        height: 900px;
+    }
+} 
